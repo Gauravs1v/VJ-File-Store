@@ -32,12 +32,12 @@ def is_enabled(value, default):
 # Owner Information
 API_ID = int(environ.get("API_ID", "20803860"))
 API_HASH = environ.get("API_HASH", "c80c5c636f358fe7a5c61ced62022a5f")
-ADMINS = int(environ.get("ADMINS", ""))
+ADMINS = int(environ.get("ADMINS", "948178492"))
 
 # Database Information
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonevjbotz")
-DB_URI = environ.get("DB_URI", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://gauravchaudharychhata:C5NgNT3Nn92vCUOx@cluster0.s0ddl1t.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = environ.get("DB_NAME", "vjbotz")
 
 # Don't Remove Credit Tg - @VJ_Botz
